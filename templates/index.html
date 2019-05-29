@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=”en”>
+ <head>
+ <meta charset=”utf-8">
+ <title>Task List</title>
+ <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+ </head>
+<body>
+
+</body>
+
+ <! — vue.js files →
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type=”text/javascript”>
+ new Vue({
+   el: ‘#starting’,
+   delimiters: [‘${‘,’}’],
+   data: {
+   articles: [],
+   loading: false,
+   currentArticle: {},
+   message: null,
+   newArticle: { ‘article_heading’: null, ‘article_body’: null },
+ },
+ mounted: function() {
+},
+ methods: {
+}
+ });
+ </script>
